@@ -61,7 +61,7 @@ export function SiteFooter() {
                 <MessageCircle className="h-4 w-4" />
               </a>
               <a
-                href=" https://portfolio-upgraded-q9ag762p8-moahmed-ashrafs-projects.vercel.app/"
+                href="https://portfolio-updated-tcsz.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-gold-soft/10 border border-gold-soft/20 text-gold-soft/80 hover:bg-gold-soft hover:text-emerald-deep transition-all duration-300 hover:scale-110"
@@ -101,7 +101,7 @@ export function SiteFooter() {
             target="_blank" 
             rel="noopener noreferrer"
             className="ps-1 pe-1 hover:text-gold-soft transition-colors mx-1 font-medium" 
-            href=' https://portfolio-upgraded-q9ag762p8-moahmed-ashrafs-projects.vercel.app/'
+            href='https://portfolio-updated-tcsz.vercel.app/'
           >
             Mohamed Ashraf
           </a>
