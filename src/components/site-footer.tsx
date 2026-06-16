@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { BookOpen } from "lucide-react";
+import { BookOpen, Github, Linkedin, Facebook, MessageCircle, Briefcase } from "lucide-react";
 
 export function SiteFooter() {
   return (
@@ -19,6 +19,58 @@ export function SiteFooter() {
             منصة قرآنية شاملة: اقرأ المصحف الشريف، تصفّح التفسير بأكثر من تفسير،
             استمع لأصوات كبار القراء، وادعُ من مكتبة أدعية واسعة — كل ذلك في مكان واحد.
           </p>
+          
+          {/* وسائل التواصل الاجتماعي */}
+          <div className="pt-4">
+            <h4 className="font-display text-sm font-bold text-gold-soft mb-3">تابعني</h4>
+            <div className="flex gap-3 flex-wrap">
+              <a
+                href="https://github.com/MohamedAshraf366"
+                target="_blank"
+                rel="noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-gold-soft/10 border border-gold-soft/20 text-gold-soft/80 hover:bg-gold-soft hover:text-emerald-deep transition-all duration-300 hover:scale-110"
+                aria-label="GitHub"
+              >
+                <Github className="h-4 w-4" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mohamed-ashraf-497a13170"
+                target="_blank"
+                rel="noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-gold-soft/10 border border-gold-soft/20 text-gold-soft/80 hover:bg-gold-soft hover:text-emerald-deep transition-all duration-300 hover:scale-110"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-4 w-4" />
+              </a>
+              <a
+                href="https://www.facebook.com/mohamed.ashraf.791060/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-gold-soft/10 border border-gold-soft/20 text-gold-soft/80 hover:bg-gold-soft hover:text-emerald-deep transition-all duration-300 hover:scale-110"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-4 w-4" />
+              </a>
+              <a
+                href="https://wa.me/201111166832"
+                target="_blank"
+                rel="noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-gold-soft/10 border border-gold-soft/20 text-gold-soft/80 hover:bg-gold-soft hover:text-emerald-deep transition-all duration-300 hover:scale-110"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="h-4 w-4" />
+              </a>
+              <a
+                href=" https://portfolio-upgraded-q9ag762p8-moahmed-ashrafs-projects.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-gold-soft/10 border border-gold-soft/20 text-gold-soft/80 hover:bg-gold-soft hover:text-emerald-deep transition-all duration-300 hover:scale-110"
+                aria-label="Portfolio"
+              >
+                <Briefcase className="h-4 w-4" />
+              </a>
+            </div>
+          </div>
         </div>
 
         <div>
@@ -41,11 +93,19 @@ export function SiteFooter() {
           </ul>
         </div>
       </div>
+      
       <div className="border-t border-gold/15">
         <div className="container mx-auto px-4 py-5 text-center text-xs text-gold-soft/60">
-          COPYRIGHT &copy; 2026
-                            <a target="_blank" className="ps-1 pe-1 fs-5" href='https://portfolio-upgraded-p4r8256o1-moahmed-ashrafs-projects.vercel.app/'>Mohamed Ashraf</a>
-                            . All Rights Reserved.
+          COPYRIGHT © 2026
+          <a 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="ps-1 pe-1 hover:text-gold-soft transition-colors mx-1 font-medium" 
+            href=' https://portfolio-upgraded-q9ag762p8-moahmed-ashrafs-projects.vercel.app/'
+          >
+            Mohamed Ashraf
+          </a>
+          . All Rights Reserved.
         </div>
       </div>
     </footer>
